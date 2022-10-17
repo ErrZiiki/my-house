@@ -23,7 +23,6 @@ public class Picture
     {
         // nothing to do... instance variables are automatically set to null
     }
-
     /**
      * Draw this picture.
      */
@@ -65,7 +64,10 @@ public class Picture
         sun.makeVisible();
         sun.slowMoveVertical(-150);
     }
-
+    public void atardecer()
+    {
+        sun.slowMoveVertical(150);
+    }
     /**
      * Change this picture to black/white display
      */
